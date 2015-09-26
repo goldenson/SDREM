@@ -9,6 +9,18 @@ brew doctor
 # Install cask
 brew install caskroom/cask/brew-cask
 
+# Install Iterm2
+brew cask install iterm2
+
+# git
+brew install git
+
+#open /Applications/iTerm.app
+
+# Install oy-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Install Google Chrome
 brew cask install google-chrome
 
 # Installing Ruby
@@ -51,53 +63,17 @@ rails -v
 # curl -LOk https://toolbelt.heroku.com/download/osx
 # sudo installer -pkg osx -target /
 
+brew install macvim
+
+curl -Lo- https://bit.ly/janus-bootstrap | zsh
 
 # alfred
 brew cask install alfred
-brew cask alfred link
-
-# textmate
-brew cask install textmate
-
-# atom
-brew cask install atom
-
-# iterm2
-brew cask install iterm2
-
-# google chrome
-brew cask install google-chrome
-
-# sequel pro
-brew cask install sequel-pro
-
-# cyberduck
-brew cask install cyberduck
-
-# spotify
-brew cask install spotify
-
-# java
-brew cask install java
-
-# intellij idea
-brew cask install intellij-idea
 
 # source tree
-brew cask install sourcetree
-
-# git
-brew install git
+#brew cask install sourcetree
 
 # github
-brew cask install github
-
-# viscosity
-brew cask install viscosity
-
-# textmate bundle - gist
-mkdir -p ~/Library/Application\ Support/Avian/Bundles
-cd ~/Library/Application\ Support/Avian/Bundles
-git clone git://github.com/hiltmon/Gist.tmbundle
+#brew cask install github
 
 exit 0
