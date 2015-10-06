@@ -1,12 +1,14 @@
-# Setup Mac OSX
-Setup Mac OSX with Rails
-# Setup Mac OS X
+# Setup Dev Rails Env for Mac OSX
 
-I'm in a hospital in Spain and my MacBook was stolen.
+I'm faded to install my dev env each times I format my mac.
 
-![Hospital Commit](http://f.cl.ly/items/432c1g1V0B3s1l1j0j2Z/hospital-commit.jpg)
+It grows a litle bit every day and I finally decided to automate the
+installation.
 
-Now I bought a new one and need to configure it. I have an external hard drive that backup everything using [Time Machine](http://www.apple.com/osx/apps/#timemachine), but I don't want all the crap I had in the old one.
+Today I share my script with you
+<!--![Maxime Orefice](https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAL5AAAAJGJiYzI4NjgyLWM2Y2YtNDQ4MC05ZTRlLTkxNjRhYjMwOWU2OA.jpg)-->
+
+I have an external hard drive that backup everything using [Time Machine](http://www.apple.com/osx/apps/#timemachine)
 
 ## 1. Run Software Update
 
@@ -137,7 +139,6 @@ curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE9_Win
 curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE10_Win8/IE10.Win8.For.MacVirtualBox.part{1.sfx,2.rar,3.rar}"
 ```
 
-## 11. Profit!
+## 11. Enjoy !
 
-:)
-
+Please don't hesitate to contribute :)
