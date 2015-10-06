@@ -1,10 +1,14 @@
 #!/bin/sh
 
 # Install xcode
-#xcode-select --install
+xcode-select --install
 
 # Configuring Git
 git config --global color.ui true
+git config --global log.decorate full
+git config --global help.autocorrect = 1
+git config --global alias.st status
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 ### Read two lines in one ?
 echo "> What is your name ?"
 read line
@@ -19,7 +23,7 @@ cat ~/.ssh/id_rsa.pub | pbcopy
 echo "> Your ssh key was just pbcopied"
 echo "> Wait 2 sec Github is opening, then paste your key on ssh settings"
 sleep 2
-open -a "Google Chrome" https://github.com/settings/ssh
+open -a "Safari" https://github.com/settings/ssh
 
 
 # Install homebrew
@@ -28,8 +32,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # Verify homebrew installation
 brew doctor
 
+# Make at the end
 # Install oy-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+#sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 ### Stop here ?
 open ~/Applications/iTerm.app
@@ -71,69 +76,6 @@ rails -v
 brew install macvim
 
 curl -Lo- https://bit.ly/janus-bootstrap | zsh
-
-### Add config files
-echo 'color molokai
-set guifont=Monaco:h11.00
-set wildmenu
-
-function! InsertStatuslineColor(mode)
-  if a:mode == 'i'
-    hi statusline guibg=magenta
-  elseif a:mode == 'r'
-    hi statusline guibg=blue
-  else
-    hi statusline guibg=red
-  endif
-endfunction
-
-au InsertEnter * call InsertStatuslineColor(v:insertmode)
-au InsertLeave * hi statusline guibg=green
-
-" default the statusline to green when entering Vim
-hi statusline guibg=green
-
-" strip trailing whitespace on save
-autocmd BufWritePre * :%s/\s\+$//e
-
-if has("gui_macvim") && has("gui_running")
-  " Command-Shift-F on OSX
-  nmap <D-S-F> :Ack<space>
-endif' > ~/.gvimrc.local
-
-echo 'call janus#disable_plugin('pep8')' > ~/.vimrc.before
-
-echo 'set guioptions-=T
-
-color molokai
-set guifont=Monaco:h11.00
-set wildmenu
-
-function! InsertStatuslineColor(mode)
-  if a:mode == 'i'
-    hi statusline guibg=magenta
-  elseif a:mode == 'r'
-    hi statusline guibg=blue
-  else
-    hi statusline guibg=red
-  endif
-endfunction
-
-au InsertEnter * call InsertStatuslineColor(v:insertmode)
-au InsertLeave * hi statusline guibg=green
-
-" default the statusline to green when entering Vim
-hi statusline guibg=green
-
-" strip trailing whitespace on save
-autocmd BufWritePre * :%s/\s\+$//e
-
-if has("gui_macvim") && has("gui_running")
-  " Command-Shift-F on OSX
-  nmap <D-S-F> :Ack<space>
-endif
-
-nnoremap <silent> <leader>T :ClearCtrlPCache<cr>\|:CtrlP<cr>' > ~/vimrc.after
 
 # alfred
 brew cask install alfred
