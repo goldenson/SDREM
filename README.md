@@ -1,6 +1,6 @@
 # Setup Dev Rails Env for Mac OSX
 
-**Installation made on OSX Yosemite 10.10.5**
+**Installation made on OS X Yosemite 10.10.5**
 
 I'm faded to install my dev env each times my mac is recovering.
 
