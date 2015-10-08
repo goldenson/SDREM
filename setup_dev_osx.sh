@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 ##################################################################################################
 # Configuring Git
 git config --global color.ui true
@@ -74,10 +73,6 @@ gem install rails -v 4.2.4
 rbenv rehash
 rails -v
 ##########################
-
-# Installing heroku
-# curl -LOk https://toolbelt.heroku.com/download/osx
-# sudo installer -pkg osx -target /
 
 
 ##############################################

@@ -36,7 +36,7 @@ Make sure everything is up to date.
 
 ### Preview of Macvim and iterm2 conf
 
-I definitely like the colors and all the awesome stuffs. Thanks a lot to @excid3 for that.
+I definitely like the colors and all the awesome stuffs. Thanks a lot to [@excid3](https://github.com/excid3) for that.
 
 ![My conf](http://f.cl.ly/items/3u3A1X2H1e3N3m150z3v/Image%202015-10-08%20at%2011.52.30%20AM.png)
 
@@ -91,19 +91,7 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 * [Wireshark](https://www.wireshark.org/#download) for network analysis
 * [XQuartz](http://xquartz.macosforge.org/landing/) for using Wireshark on Yosemite
 
-## 4. Install Dotfiles from [Excid3](https://github.com/excid3/dotfiles)
-
-I love your Chris' conf, and I recommend people to use it if they want to improve their productivity.
-
-0. Go [here](https://github.com/excid3/dotfiles)
-1. Click on Download ZIP
-2. Copy and paste the 3 files inside the vim directory at the root of your environment
-3. Open Iterm, Click on Preferences ➜ General ➜ Load preferences from a custom folder ➜ Import profile.itermcolors inside iterm directory
-4. Go to zsh directory ➜ Go to themes ➜ Copy the excid3.zsh-theme inside ~/.oh-my-zsh/themes/
-5. Go to zsh directory ➜ Copy zshrc content instead of your ~/.zshrc
-6. Copy the gemrc inside your ~/.gem/
-
-## 5. Set up Ruby on Rails for Yosemite 10.10
+## 4. Set up Ruby on Rails for Yosemite 10.10
 
 1. You can find more informations about the following installation here : [Go Rails Setup] (https://gorails.com/setup/osx/10.10-yosemite)
 2. This will install and configure : git, ssh key on github, homebrew, iterm2, brew-cask, google-chrome, rbenv (ruby version manager), ruby, postgreSQL, rails, alfred, some tools for quicklook and oh-my-zsh.
@@ -112,6 +100,18 @@ I love your Chris' conf, and I recommend people to use it if they want to improv
 ```sh
 ./setup_dev_osx.sh
 ```
+
+## 5. Install Dotfiles from [Excid3](https://github.com/excid3/dotfiles)
+
+I love [@exci3d](https://github.com/excid3/dotfiles) conf, and I recommend people to use it if they want to improve their productivity.
+
+0. Go [here](https://github.com/excid3/dotfiles)
+1. Click on Download ZIP
+2. Copy and paste the 3 files inside the vim directory at the root of your environment
+3. Open Iterm, Click on Preferences ➜ General ➜ Load preferences from a custom folder ➜ Import profile.itermcolors inside iterm directory
+4. Go to zsh directory ➜ Go to themes ➜ Copy the excid3.zsh-theme inside ~/.oh-my-zsh/themes/
+5. Go to zsh directory ➜ Copy zshrc content instead of your ~/.zshrc
+6. Copy the gemrc inside your ~/.gem/
 
 ## 6. Enjoy and configure as you wish
 
