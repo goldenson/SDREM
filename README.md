@@ -47,15 +47,16 @@ I love your conf Chris, and I recommend people to use it if they want to improve
 6. Copy the gemrc inside your ~/.gem/
 
 ### Preview of Macvim and iterm2 conf
+
+I definitely like the colors and all the awesome stuffs. Thanks a lot to @excid3 for that.
+
 ![My conf](http://f.cl.ly/items/3u3A1X2H1e3N3m150z3v/Image%202015-10-08%20at%2011.52.30%20AM.png)
 
 ## 4. Install Softwares
 
-You can install softwares from [homebrew-cask](https://github.com/phinze/homebrew-cask) if you like command lines or manually with a dmg files.
+You can install softwares from [homebrew-cask](https://github.com/caskroom/homebrew-cask) if you like command lines or manually with a dmg files.
 
-<!--Just make sure to move all apps from `/opt/homebrew-cask/Caskroom/` to `/Applications`. And to remove all installations files from `/Library/Caches/Homebrew`.-->
-
-### What I use everyday?
+### What I use everyday ?
 
 ###### Browser
 
@@ -103,11 +104,11 @@ You can install softwares from [homebrew-cask](https://github.com/phinze/homebre
 * [XQuartz](http://xquartz.macosforge.org/landing/) for using Wireshark on Yosemite
 
 
-## 5. Set up Ruby on Rails
+## 5. Set up Ruby on Rails for Yosemite 10.10
 
 
-1. You can find more informations about the following installation here :[Go Rails Setup] (https://gorails.com/setup/osx/10.10-yosemite)
-2. This will install and configure : git, ssh key on github, homebrew, oh-my-zsh, iterm2, brew-cask, google-chrome, rbenv (ruby version manager), ruby, postgreSQL, rails, alfred, and some tools for quicklook
+1. You can find more informations about the following installation here : [Go Rails Setup] (https://gorails.com/setup/osx/10.10-yosemite)
+2. This will install and configure : git, ssh key on github, homebrew, iterm2, brew-cask, google-chrome, rbenv (ruby version manager), ruby, postgreSQL, rails, alfred, some tools for quicklook and oh-my-zsh.
 3. Go to your terminal and execute the script :
 
 ```sh
