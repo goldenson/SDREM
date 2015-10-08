@@ -1,10 +1,10 @@
 # Setup Dev Rails Env for Mac OSX
 
-**Installation made OSX Yosemite 10.10.5**
+**Installation made on OSX Yosemite 10.10.5**
 
 I'm faded to install my dev env each times my mac is recovering.
 
-I did a script that allows you to install all my useful software.
+I did a script that allows me to install all my useful software.
 
 Today I share it with you !
 
