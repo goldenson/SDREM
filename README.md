@@ -1,13 +1,20 @@
 # Setup Dev Rails Env for Mac OSX
 
-I'm faded to install my dev env each times I format my mac.
+**Installation made OSX Yosemite 10.10.5**
 
-It grows a litle bit every day and I finally decided to improved my script skills with this installation.
+I'm faded to install my dev env each times my mac is recovering.
 
-Today I share my script with you
-<!--![Maxime Orefice](https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAL5AAAAJGJiYzI4NjgyLWM2Y2YtNDQ4MC05ZTRlLTkxNjRhYjMwOWU2OA.jpg)-->
+I did a script that allows you to install all my useful software.
 
-I have an external hard drive that backup everything using [Time Machine](http://www.apple.com/osx/apps/#timemachine)
+Today I share it with you !
+
+# My personal backup
+
+I have all my documents hosted on [Google Drive](https://drive.google.com) and my code on [Github](https://github.com).
+
+I do a backup of my Mac every month using [Time Machine](http://www.apple.com/osx/apps/#timemachine) with an external hard drive.
+
+I consider it's good to have a backup but it's better to have twice :).
 
 ## 1. Run Software Update
 
@@ -29,31 +36,30 @@ Make sure everything is up to date.
 
 ## 3. Install Dotfiles from [Excid3](https://github.com/excid3/dotfiles)
 
+I love your conf Chris, and I recommend people to use it if they want to improve their productivity.
+
+0. Go [here](https://github.com/excid3/dotfiles)
 1. Click on Download ZIP
 2. Copy and paste the 3 files inside the vim directory at the root of your environment
 3. Open Iterm, Click on Preferences ➜ General ➜ Load preferences from a custom folder ➜ Import profile.itermcolors inside iterm directory
 4. Go to zsh directory ➜ Go to themes ➜ Copy the excid3.zsh-theme inside ~/.oh-my-zsh/themes/
 5. Go to zsh directory ➜ Copy zshrc content instead of your ~/.zshrc
 6. Copy the gemrc inside your ~/.gem/
-This will install some useful stuff like [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). Besides that, it will also set a new theme and some useful aliases for the terminal.
+
+### Preview of Macvim and iterm2 conf
+![My conf](http://cl.ly/image/270N1A1D0U0I)
 
 ## 4. Install Softwares
 
-Many softwares can be installed through [homebrew-cask](https://github.com/phinze/homebrew-cask) which makes the process way simpler:
+You can install softwares from [homebrew-cask](https://github.com/phinze/homebrew-cask) if you like command lines or manually with a dmg files.
 
-```sh
-curl -L https://gist.githubusercontent.com/zenorocha/7159780/raw/9b9413ff1306d78be6447f4beddcf90e7e8b2b8a/softwares.sh | sh
-```
+<!--Just make sure to move all apps from `/opt/homebrew-cask/Caskroom/` to `/Applications`. And to remove all installations files from `/Library/Caches/Homebrew`.-->
 
-Just make sure to move all apps from `/opt/homebrew-cask/Caskroom/` to `/Applications`. And to remove all installations files from `/Library/Caches/Homebrew`.
-
-[Go Rails Setup] (https://gorails.com/setup/osx/10.10-yosemite)
-
-### What's included?
+### What I use everyday?
 
 ###### Browser
 
-* [Chrome](https://www.google.com/intl/en/chrome/browser/desktop/index.html)
+* [Chrome](https://www.google.com/intl/en/chrome/browser/desktop/index.html) for surfing on internet
 
 ###### Development
 
@@ -65,11 +71,6 @@ Just make sure to move all apps from `/opt/homebrew-cask/Caskroom/` to `/Applica
 * [Oh my zsh](http://ohmyz.sh/) for pretty terminal
 * [Heroku](https://toolbelt.heroku.com/osx) for deploying app easily
 * [Github](https://github.com/) for hosting code
-
-###### Other
-
-
-Unfortunately some apps aren't available through [homebrew-cask](https://github.com/phinze/homebrew-cask), so you need to install it **manually**.
 
 ###### App Store
 
@@ -101,12 +102,18 @@ Unfortunately some apps aren't available through [homebrew-cask](https://github.
 * [Wireshark](https://www.wireshark.org/#download) for network analysis
 * [XQuartz](http://xquartz.macosforge.org/landing/) for using Wireshark on Yosemite
 
-## 5. Generate SSH keys for GitHub
 
-Visit [GitHub's official guide](https://help.github.com/articles/generating-ssh-keys#platform-mac) for instructions.
+## 5. Set up Ruby on Rails
 
-From that point on you're going to be able to do some git operations with GitHub \o/
 
-## 6. Enjoy !
+1. You can find more informations about the following installation here :[Go Rails Setup] (https://gorails.com/setup/osx/10.10-yosemite)
+2. This will install and configure : git, ssh key on github, homebrew, oh-my-zsh, iterm2, brew-cask, google-chrome, rbenv (ruby version manager), ruby, postgreSQL, rails, alfred, and some tools for quicklook
+3. Go to your terminal and execute the script :
 
-Please don't hesitate to contribute :)
+```sh
+./setup_dev_osx.sh
+```
+
+## 6. Enjoy and configure as you wish
+
+Don't hesitate to contribute :)

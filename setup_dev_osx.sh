@@ -1,15 +1,11 @@
 #!/bin/sh
 
-# Install xcode
-xcode-select --install
-
 # Configuring Git
 git config --global color.ui true
 git config --global log.decorate full
 git config --global help.autocorrect = 1
 git config --global alias.st status
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
-### Read two lines in one ?
 echo "> What is your name ?"
 read line
 sleep 5
@@ -25,19 +21,16 @@ echo "> Wait 2 sec Github is opening, then paste your key on ssh settings"
 sleep 2
 open -a "Safari" https://github.com/settings/ssh
 
-
 # Install homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Verify homebrew installation
 brew doctor
 
-# Make at the end
+##########################################################################################
 # Install oy-my-zsh
-#sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-### Stop here ?
-open ~/Applications/iTerm.app
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+##########################################################################################
 
 # Install cask
 brew install caskroom/cask/brew-cask
@@ -82,11 +75,5 @@ brew cask install alfred
 
 # QuickLook
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
-
-# source tree
-#brew cask install sourcetree
-
-# github
-#brew cask install github
 
 exit 0
