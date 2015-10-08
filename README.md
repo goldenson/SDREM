@@ -47,7 +47,7 @@ I love your conf Chris, and I recommend people to use it if they want to improve
 6. Copy the gemrc inside your ~/.gem/
 
 ### Preview of Macvim and iterm2 conf
-![My conf](http://cl.ly/image/270N1A1D0U0I)
+![My conf](http://f.cl.ly/items/3u3A1X2H1e3N3m150z3v/Image%202015-10-08%20at%2011.52.30%20AM.png)
 
 ## 4. Install Softwares
 
