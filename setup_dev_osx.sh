@@ -46,6 +46,13 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 #############################################################################
 
 
+##########################################################################################
+# Install oy-my-zsh
+#sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+##########################################################################################
+
+
 ##############################################################################
 # Installing Ruby
 brew install rbenv ruby-build
@@ -75,15 +82,15 @@ rails -v
 ##########################
 
 
+# Installing heroku
+# curl -LOk https://toolbelt.heroku.com/download/osx
+# sudo installer -pkg osx -target /
+
+
 ##############################################
 brew install macvim
 curl -Lo- https://bit.ly/janus-bootstrap | zsh
 ##############################################
 
-
-##########################################################################################
-# Install oy-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-##########################################################################################
 
 exit 0
