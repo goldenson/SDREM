@@ -26,7 +26,7 @@ open -a "Safari" https://github.com/settings/ssh
 
 #########################################################################################
 # Install homebrew
-sudo ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # Verify homebrew installation
 brew doctor
 #########################################################################################
