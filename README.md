@@ -1,4 +1,4 @@
-# Setup Dev Rails Env for Mac OSX
+# SDREM : Setup Dev Rails Env for Mac OSX
 
 **Installation made on OS X Yosemite 10.10.5**
 
