@@ -26,7 +26,7 @@ open -a "Safari" https://github.com/settings/ssh
 
 #########################################################################################
 # Install homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sudo ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # Verify homebrew installation
 brew doctor
 #########################################################################################
@@ -48,7 +48,6 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 
 ##########################################################################################
 # Install oy-my-zsh
-#sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 ##########################################################################################
 
@@ -82,9 +81,11 @@ rails -v
 ##########################
 
 
+########################################################
 # Installing heroku
-# curl -LOk https://toolbelt.heroku.com/download/osx
-# sudo installer -pkg osx -target /
+brew install heroku-toolbelt
+echo "Don't forget to add your ssh key to Heroku setting"
+########################################################
 
 
 ##############################################
