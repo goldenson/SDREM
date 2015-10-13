@@ -65,7 +65,7 @@ ruby -v
 
 
 ##################################################################################################
-# Setting Up Postgresql, (-L to follow redirects, -k if your certificate file is missing)
+# Setting Up Postgresql
 curl -LOk https://github.com/PostgresApp/PostgresApp/releases/download/9.4.4.1/Postgres-9.4.4.1.zip
 unzip Postgres-9.4.4.1.zip
 mv Postgres.app ~/Applications

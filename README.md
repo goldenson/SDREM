@@ -74,7 +74,7 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 * [Pages](https://itunes.apple.com/us/app/pages/id409201541?l=en&mt=12) for documents
 * [Numbers](https://itunes.apple.com/us/app/numbers/id409203825?l=en&mt=12) for excel
 
-###### Manually
+###### Workflow
 
 * [Alfred](http://www.alfredapp.com/) for workflow automation
 * [Skype](http://www.skype.com/en/) for international calls
@@ -95,7 +95,8 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 
 1. You can find more informations about the following installation here : [Go Rails Setup] (https://gorails.com/setup/osx/10.10-yosemite)
 2. This will install and configure : git, ssh key on github, homebrew, iterm2, brew-cask, google-chrome, rbenv (ruby version manager), ruby, postgreSQL, rails, alfred, some tools for quicklook and oh-my-zsh.
-3. Go to your terminal and execute the script :
+3. Get an internet connection
+4. Go to your terminal and execute the script :
 
 ```sh
 ./setup_dev_osx.sh
