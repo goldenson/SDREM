@@ -90,6 +90,7 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 * [Unified Remote](https://www.unifiedremote.com/download) for remote control of your Mac
 * [Wireshark](https://www.wireshark.org/#download) for network analysis
 * [XQuartz](http://xquartz.macosforge.org/landing/) for using Wireshark compatibility on Yosemite
+* [POP](https://popapp.in/) for prototyping on paper
 
 ## 4. Set up Ruby on Rails for Yosemite 10.10
 
