@@ -94,7 +94,7 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 * [Namecheap](https://www.namecheap.com/) for buying domain name
 * [Facturation Pro](https://www.facturation.pro) for billing
 * [User Voice](https://www.uservoice.com/) for listening your customers
-* [Intecom](https://www.intercom.io/) for communication with your customers
+* [Intercom](https://www.intercom.io/) for communication with your customers
 
 ## 4. Set up Ruby on Rails for Yosemite 10.10
 
