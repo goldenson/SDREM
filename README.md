@@ -96,6 +96,7 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 * [User Voice](https://www.uservoice.com/) for listening your customers
 * [Intercom](https://www.intercom.io/) for communication with your customers
 * [Typeform](http://www.typeform.com/) for beautiful form
+* [Appear](https://appear.in/) for video conversations
 
 ## 4. Set up Ruby on Rails for Yosemite 10.10
 
