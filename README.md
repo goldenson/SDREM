@@ -95,6 +95,7 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 * [Facturation Pro](https://www.facturation.pro) for billing
 * [User Voice](https://www.uservoice.com/) for listening your customers
 * [Intercom](https://www.intercom.io/) for communication with your customers
+* [Typeform](http://www.typeform.com/) for beautiful form
 
 ## 4. Set up Ruby on Rails for Yosemite 10.10
 
