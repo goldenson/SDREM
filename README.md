@@ -69,7 +69,6 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 * [Navicat](https://itunes.apple.com/us/app/navicat-data-modeler-essentials/id532423082?l=en&mt=12) for data modeling
 * [Twitter](https://itunes.apple.com/us/app/twitter/id409789998?l=en&mt=12) for keeping update
 * [Skitch](https://itunes.apple.com/us/app/skitch-snap.-mark-up.-share./id425955336?l=en&mt=12) for productivity
-* [Evernote](http://evernote.com/) for presentation notes
 * [Keynote](https://itunes.apple.com/us/app/keynote/id409183694?l=en&mt=12) for presentations
 * [Pages](https://itunes.apple.com/us/app/pages/id409201541?l=en&mt=12) for documents
 * [Numbers](https://itunes.apple.com/us/app/numbers/id409203825?l=en&mt=12) for excel
@@ -77,16 +76,18 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 ###### Workflow
 
 * [Alfred](http://www.alfredapp.com/) for workflow automation
+* [Dash](https://kapeli.com/dash) a local documentation
+* [1Password](https://1password.com/) a password manager
+* [Pocket](https://getpocket.com/) read something later
+* [Screenhero](https://screenhero.com/) remote pair programming
 * [Skype](http://www.skype.com/en/) for international calls
-* [Viber](http://www.viber.com/en/products/mac) for chatting
-* [Pow](http://pow.cx/) for launch your app without running a server
 * [VLC](http://www.videolan.org/vlc/download-macosx.html) for videos watching
-* [Transmission](http://www.transmissionbt.com/download/) for torrent download
+* [uTorrent](http://www.utorrent.com/intl/fr/) for torrent download
 * [Android File Transfert](https://www.android.com/filetransfer/) for android on Mac
 * [SizeUp](http://www.irradiatedsoftware.com/sizeup/) for window management
+* [Spectable](https://www.spectacleapp.com/) for window management
 * [iStat Menus](https://bjango.com/mac/istatmenus/) for monitoring system
 * [Flux](https://justgetflux.com/) for resting your eyes
-* [CloudApp](https://www.getcloudapp.com/download) for file/link sharing
 * [Unified Remote](https://www.unifiedremote.com/download) for remote control of your Mac
 * [Wireshark](https://www.wireshark.org/#download) for network analysis
 * [XQuartz](http://xquartz.macosforge.org/landing/) for using Wireshark compatibility on Yosemite
@@ -99,6 +100,19 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 * [Appear](https://appear.in/) for video conversations
 * [Rubular](http://rubular.com/) for ruby regex
 * [Strfti](http://www.strfti.me/) for format dates and times
+* [Polymail](https://polymail.io/) email client
+* [Monosnap](https://monosnap.com/welcome) taking screenshots and more
+* [NordVPN](https://nordvpn.com/fr/) vpn client
+* [Quiver](http://happenapps.com/#quiver) the programmer's notebook
+* [Unetbootin](https://unetbootin.github.io/) to create bootable live
+  usb
+* [UnRarX](http://www.unrarx.com/) to unrar
+* [Zoiper](https://www.zoiper.com/en) VoIP client
+* [X-Lite](http://www.counterpath.com/x-lite/) VoIP client
+* [Kodi](https://kodi.tv/) a media center
+* [Whatsapp](https://www.whatsapp.com/) messaging app
+* [Spotify](https://www.spotify.com) music everywhere
+* [Tor](https://www.torproject.org/) anonymous online
 
 ## 4. Set up Ruby on Rails for Yosemite 10.10
 
