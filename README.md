@@ -97,6 +97,7 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 * [User Voice](https://www.uservoice.com/) for listening your customers
 * [Intercom](https://www.intercom.io/) for communication with your customers
 * [Typeform](http://www.typeform.com/) for beautiful form
+* [Wufoo](http://www.wufoo.com/) form for getting feedback
 * [Appear](https://appear.in/) for video conversations
 * [Rubular](http://rubular.com/) for ruby regex
 * [Strfti](http://www.strfti.me/) for format dates and times
