@@ -115,6 +115,12 @@ You can install softwares from [homebrew-cask](https://github.com/caskroom/homeb
 * [Spotify](https://www.spotify.com) music everywhere
 * [Tor](https://www.torproject.org/) anonymous online
 
+###### 🌱  Growth
+
+* [GoRails](https://gorails.com) Rails screencasts about new features
+* [Upcase](https://thoughtbot.com/upcase) Screencasts
+* [Destroyallsoftware](https://www.destroyallsoftware.com) deep dive
+
 ## 4. Set up Ruby on Rails for Yosemite 10.10
 
 1. You can find more informations about the following installation here : [Go Rails Setup] (https://gorails.com/setup/osx/10.10-yosemite)
